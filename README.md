@@ -1,2 +1,2 @@
 # responsitory
-# use resopn for all project
+# use responsitory for all project
