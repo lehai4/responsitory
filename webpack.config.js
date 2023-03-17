@@ -19,6 +19,13 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "public"),
+    },
+    compress: true,
+    port: 3000,
+  },
   // Chứa các plugins sẽ cài đặt trong tương lai
   plugins: [
     new HtmlWebpackPlugin({
